@@ -26,9 +26,9 @@ deno test main_test.ts  # or any other test file
 
 ### API
 
-Primary entry: detectFraud — see implementation in main.ts.
-Input: string[] where each string is transactionId,userId,amount,timestamp,location.
-Output: fraud report object with flagged array and summary (and optional errors).
+- Primary entry: detectFraud — see implementation in main.ts.
+- Input: string[] where each string is transactionId,userId,amount,timestamp,location.
+- Output: fraud report object with flagged array and summary (and optional errors).
 
 Example output shape (see [problemStatement.md] for details):
 
